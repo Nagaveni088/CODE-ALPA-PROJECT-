@@ -1,53 +1,12 @@
-
-# =========================================================
 # CODEALPHA PYTHON INTERNSHIP PROJECT
 # ALL 4 TASKS IN ONE PROGRAM
-# =========================================================
+🚀 CODEALPHA PYTHON PROJECT
 
-import random
-import os
-import shutil
-import re
-import csv
-
-# =========================================================
-# MAIN MENU
-# =========================================================
-
-def main_menu():
-    while True:
-        print("\n" + "="*50)
-        print("🚀 CODEALPHA PYTHON PROJECT")
-        print("="*50)
-        print("1. 🎮 Hangman Game")
-        print("2. 📈 Stock Portfolio Tracker")
-        print("3. ⚙️ Task Automation")
-        print("4. 🤖 Basic Chatbot")
-        print("5. ❌ Exit")
-        
-        choice = input("\nEnter your choice: ")
-
-        if choice == "1":
-            hangman_game()
-
-        elif choice == "2":
-            stock_tracker()
-
-        elif choice == "3":
-            automation_task()
-
-        elif choice == "4":
-            chatbot()
-
-        elif choice == "5":
-            print("\n👋 Thank you for using the project!")
-            break
-
-        else:
-            print("❌ Invalid choice! Try again.")
-
-
-# =========================================================
+🎮 Hangman Game
+📈 Stock Portfolio Tracker
+⚙️ Task Automation
+🤖 Basic Chatbot
+#=========================================================
 # TASK 1 : HANGMAN GAME
 # =========================================================
 
@@ -231,13 +190,5 @@ def chatbot():
         else:
             print("Bot: Sorry, I don't understand that.")
 
-
-# =========================================================
-# RUN PROGRAM
-# =========================================================
-
-main_menu()
-
-
-PROJECT SUBMITTED BY
+**PROJECT SUBMITTED BY
 NAGAVENI B KITTUR 
